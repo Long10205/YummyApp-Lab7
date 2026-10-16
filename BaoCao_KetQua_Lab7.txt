@@ -1,0 +1,26 @@
+BÁO CÁO KẾT QUẢ BÀI THỰC HÀNH 7
+Kiểm thử Mocking ứng dụng di động và CI/CD
+
+Sinh viên: ........................................  MSSV: ........................
+GitHub Repository: ............................................................
+
+1. Mục tiêu
+Thực hiện unit test cho nghiệp vụ tính tiền, khuyến mãi và đề xuất nhà hàng;
+mock GPS và thiết lập GitHub Actions chạy tự động, áp dụng linter và coverage gate.
+
+2. Các ca kiểm thử
+- Khuyến mãi: mã GIAM10 online hợp lệ; offline phát sinh ConnectionError;
+  NEW_OS_ONLY chạy đúng trên OS 15; OS 14 phát sinh ValueError.
+- GPS: tọa độ (10.0,105.0) trả về nhà hàng; (20.0,110.0) trả danh sách rỗng;
+  GPS mất tín hiệu trả thông báo lỗi.
+- Bổ sung kiểm tra món phobosaurieng giá 999000 và các trường hợp giỏ hàng.
+
+3. Kết quả thực thi
+Điền kết quả thực tế sau khi chạy:
+- Số test pass/fail: .........................................................
+- Coverage: ...................................................................
+- GitHub Actions run URL: ....................................................
+
+4. Minh chứng cần đính kèm
+Ảnh workflow thành công; ảnh HTML coverage; ba log local_test.log,
+git_history.log, github_actions_run.log; PDF/ảnh các trang viết tay.
